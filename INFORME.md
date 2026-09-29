@@ -147,3 +147,39 @@ Resumen:
 | 2 | Declarativo | Solo pide los datos |
 | 3 | Declarativo | Define el factorial con reglas |
 | 4 | Imperativo | Recorre la lista él mismo |
+
+### 2.2 Actividad del día a día
+
+**Actividad elegida:** poner una lavadora.
+
+**Forma imperativa (paso a paso):**
+
+1. Separo la ropa blanca de la de color.
+2. Vacío los bolsillos y miro las etiquetas.
+3. Meto la ropa en la lavadora sin llenarla del todo.
+4. Echo el detergente y el suavizante.
+5. Cierro la puerta.
+6. Elijo el programa de algodón a 40 grados.
+7. Le doy al botón de inicio.
+8. Cuando acaba, tiendo la ropa.
+
+**Forma declarativa (qué quiero):**
+
+> Quiero la ropa limpia y seca, sin que se estropee.
+
+**Comparación:**
+
+| | Imperativo | Declarativo |
+|---|---|---|
+| Qué digo | Cómo hacerlo | Qué quiero |
+| Largo | Muchos pasos | Una frase |
+| Control | Todo lo controlo yo | Lo decide quien lo haga |
+
+**Ventajas y desventajas.**
+Con el imperativo controlo todo, pero es más largo y tengo que saber cómo se hace. Con el declarativo es más corto y fácil, pero no controlo los detalles y dependo de que otro sepa hacerlo.
+
+**Conclusión.** El imperativo va bien cuando quiero controlar cómo se hace algo, y el declarativo cuando solo me importa el resultado. Muchas veces se juntan: al elegir el programa de la lavadora soy declarativo (digo qué lavado quiero), pero por dentro la lavadora sigue unos pasos que alguien programó de forma imperativa.
+
+## Palabra del día
+
+Compañeros
