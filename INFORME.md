@@ -96,3 +96,54 @@ El paradigma es la forma de resolver el problema.
 |---|---|---|
 | Imperativo | Dices cómo hacerlo | C, C++, Java, Python |
 | Declarativo | Dices qué quieres | SQL, Haskell, Prolog |
+
+## Parte 2. Práctica
+
+### 2.1 Los cuatro fragmentos
+
+Para saber cuál es cada uno uso esta regla: si dice **cómo** hacerlo paso a paso, es imperativo; si dice **qué** quiere, es declarativo.
+
+**Fragmento 1: sumar una lista de números uno a uno.**
+Es **imperativo**. Va sumando número a número y guardando el total en cada paso.
+
+```python
+total = 0
+for numero in numeros:
+    total = total + numero
+```
+
+**Fragmento 2: nombres de los empleados mayores de 30 años.**
+Es **declarativo**. Solo pide qué datos quiere (los nombres) y la condición (edad mayor de 30). No dice cómo buscarlos.
+
+```sql
+SELECT nombre
+FROM empleados
+WHERE edad > 30;
+```
+
+**Fragmento 3: factorial recursivo.**
+Es **declarativo**. No da pasos: define qué es el factorial con dos reglas, como en matemáticas.
+
+```haskell
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+```
+
+**Fragmento 4: filtrar los productos de más de 10 dólares uno a uno.**
+Es **imperativo**. Recorre la lista, mira cada producto y guarda los que valen más de 10.
+
+```python
+caros = []
+for producto in productos:
+    if producto.precio > 10:
+        caros.append(producto)
+```
+
+Resumen:
+
+| Fragmento | Paradigma | Por qué |
+|---|---|---|
+| 1 | Imperativo | Suma paso a paso |
+| 2 | Declarativo | Solo pide los datos |
+| 3 | Declarativo | Define el factorial con reglas |
+| 4 | Imperativo | Recorre la lista él mismo |
