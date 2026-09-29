@@ -106,5 +106,3 @@ mov   [total], eax     ; guarda el resultado en total
 | Código fuente | Es la entrada de la compilación: lo lee el análisis léxico y lo revisan el sintáctico y el semántico | `programa.c` |
 | Código objeto | Es la salida de la generación de código final, después del código intermedio y la optimización | `programa.o` |
 | Código ejecutable | Lo produce el enlazador; después se carga en memoria y lo ejecuta el procesador | `programa.exe` |
-
-> **Nota:** no todos los lenguajes siguen exactamente este camino. Java compila a *bytecode* (archivos `.class`), un código intermedio que ejecuta la máquina virtual de Java (JVM). Python usa un intérprete que va traduciendo y ejecutando el programa sobre la marcha, sin generar un `.exe`. En todos los casos, el código fuente acaba convertido en instrucciones que entiende el procesador.
